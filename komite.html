@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCARA</title>
+    <link rel="stylesheet" href="stylescara.css"> 
+</head>
+      <body>
+        <header class="navbar"> 
+            <div class="container nav-flex">
+            <h1>SCARA - Məşq saytı</h1>
+            <button class="menu-toggl">☰</button>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Ana səhifə</a></li>
+                    <li><a href="#">Haqqında</a></li>
+                    <li><a href="#">Xəbərlər</a></li>
+                    <li><a href="#">Əlaqə</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+        <main class="container">
+            <section class="hero">
+                <h2>Xoş gəldiniz!</h2>
+                <p>Bu sayt yalnız məşq üçündür. SCARA.gov.az saytına bənzər struktur yığırıq.</p>
+                <a href="#" class="btn">Ətraflı</a>
+            </section>
+            <section class="cards">
+                <div class="card">
+                <img src="images/news1.jpg"alt="Xəbər 1">
+                <h3>Xəbər 1</h3>
+                <p>Burada xeber metni olacaq...</p>
+                <a href="#" class="btn">Ətraflı</a>
+            </div>
+            <div class="card">
+                <img src="images/news2.jpg"alt="Xəbər 2">
+                <h3>Xeber 2</h3>
+                <p> Burada xeber metni olacaq...</p>
+                <a href="#" class="btn">Ətraflı</a>
+            </div>
+            <div class="card">
+                <img src="images/news3.jpg"alt="Xəbər 3">
+                <h3>Xeber 3</h3>
+                <p> Burada xeber metni olacaq...</p>
+                <a href="#" class="btn">Ətraflı</a>
+            </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container footer-flex">
+                <div class="footer-left">
+                    <p>@ 2025 SCARA- Məşq saytı. Bütün hüquqlar qorunur.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#">Ana səhifə</a>
+                    <a href="#">Haqqında</a>
+                    <a href="#">Əlaqə</a>
+                </div>
+            </div>
+            
+        </footer>
+        <script>
+            const toggleBtn= document.querySelector('.menu-togger');
+            const menu = document.querySelector('.menu');
+            toggleBtn.addEventListener('click', ()=> {
+                menu.classList.toggle('active');
+            })
+        </script>
+      </body>
